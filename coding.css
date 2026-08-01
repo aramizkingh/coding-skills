@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background:linear-gradient(180deg,#0f1b31 0%,#0b1424 20%, #08111d 45%, #070c16 100%);
+    color:white;
+}
+/*navbar section*/
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:14px 23px;
+}
+.nav-links{
+    display:flex;
+    gap:14px;
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+}
+.jiunge-link a{
+    color:#0f1b31;
+    background: #f5b52e;
+    padding:14px 23px;
+    border-radius:14px;
+    text-decoration: none;
+}
+.logo{
+    display:flex;
+    gap:14px;
+}
+.logo img{
+    border-radius:50%;
+}
+/*header section*/
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:14px 23px;
+    gap:14px;
+}
+.right-header{
+    width:50%;
+}
+.values-delivered{
+    display:flex;
+    justify-content: space-between;
+}
+.values-delivered i{
+    color:#f5b52e;
+}
+#changelife{
+    color:#f5b52e;
+}
+.left-header{
+    display:grid;
+    gap:14px;
+    width:50%;
+}
+.dhamirayetu{
+    border:1px solid #f5b52e;
+    border-radius:15px;
+    padding:14px 23px;
+}
+.dhamirayetu h3{
+    color:#f5b52e;
+}
+.wanafunzi{
+    border:1px solid rgba(255,255,255,0.5);
+    border-radius:15px;
+    padding:14px 23px;
+}
+/*tatizo halis na kwanini coding*/
+.tatizohalisi-kwaninicoding{
+    display:flex;
+    justify-content: space-between;
+    gap:14px;
+    padding:14px 23px;
+}
+.tatizo-halisi{
+    width:50%;
+}
+.tatizo-halisi h3, .tatizo-halisi i, #p{
+    color:#ef4444;
+}
+.kwanini-coding h3, .kwanini-coding i{
+    color:#60a5fa;
+}
+.sababu{
+    display:flex;
+    justify-content: space-between;
+    gap:14px;
+}
+/*cashflow quadrant*/
+.cashflow-quadrant{
+    text-align:center;
+}
+#cashflow-topest{
+    color:#f8fafc;
+}
+#cashflow-top{
+    color:#cbd5e1;
+}
+#cashflow-footer{
+    color:#d4a017;
+}
+.quadrants{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:14px;
+    padding:14px 23px;
+}
+.quadrant-footer{
+    background:rgba(255,255,255,0.05);
+    width:100%;
+}
+.comment{
+    background:#111827;
+    border:1px solid #d4a017;
+    border-radius:14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    padding:5px 14px;
+}
+.comment p{
+    color:#f8fafc;
+}
+.comment #sign{
+    color:#d4a017;
+}
+.employee{
+    background:#143b22;
+    backdrop-filter: brul(10px);
+    border:1px solid #4ade80;
+    border-radius:14px;
+    padding:5px 14px;
+    color:#f8fafc;
+}
+.employee h3{
+    color:#86efac;
+}
+#employee-letter{
+    color:#84cc16;
+}
+.employee .quadrant-footer{
+    color:#d4a017;
+    background: rgba(255,255,255,0.05);
+    width:100%;
+}
+.self-employee{
+    background:#2b163d;
+    border:1px solid#c084fc;
+    border-radius:14px;
+    padding:5px 14px;
+    color:#f8fafc;
+}
+.self-employee h3{
+    color:#d8b4fe;
+}
+#self-letter{
+    color:#c084fc;
+}
+#business-letter{
+    color:#60a5fa;
+}
+.business-owner{
+    background:#112a52;
+    border:1px solid #60a5fa;
+    padding:5px 14px;
+    border-radius:14px;
+    color:#f8fafc;
+}
+.investor{
+    background:#3a2a0f;
+    border:1px solid #fbbf24;
+    padding:5px 14px;
+    border-radius:14px;
+    color:#f8fafc;
+}
+.investor h3{
+    color:#fcd34d;
+}
+#investor-letter{
+    color:#fbbf24;
+}
+.investor .quadrant-footer{
+    color:#d4a017;
+}
+/*njia za kuwa developer wa kimataifa*/
+#three-steps{
+    text-align: center;
+    padding:14px 23px;
+}
+.hatua{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:14px;
+}
+.foundation-developer{
+    background:#102a18;
+    border:1px solid #3fa34d;
+    padding:14px 23px;
+    border-radius:14px;
+    color:#cbd5e1;
+}
+.foundation-developer h1{
+    border:1px solid #3fa34d;
+    border-radius:50%;
+    width:41px;
+    height:41px;
+}
+.foundation-developer h3{
+    color:#3fa34d;
+}
+.professional-developer{
+    background:#0f1f3a;
+    border:1px solid #3b82f6;
+    color:cbd5e1;
+    border-radius:14px;
+    padding:14px 23px;
+}
+.professional-developer h1{
+    border:1px solid #3b82f6;
+    border-radius:50%;
+    width:41px;
+    height:41px;
+}
+.professional-developer h3{
+    color:#3b82f6;
+}
+.elite-developer{
+    background:#231338;
+    border:1px solid #a855f7;
+    color:#cbd5e1;
+    padding:14px 23px;
+    border-radius:14px;
+}
+.elite-developer h1{
+    border:1px solid #a855f7;
+    border-radius:50%;
+    width:41px;
+    height:41px;
+}
+.elite-developer h3{
+    color:#a855f7;
+}
+.utapatanini{
+    background:#0f172a;
+    border:1px solid #334155;
+    color:#cbd5e1;
+    padding:14px 23px;
+    border-radius:14px;
+}
+/*miradi utakayojenga*/
+.miradi-section{
+    text-align:center;
+    padding:14px 23px;
+}
+.miradi{
+    display:flex;
+    justify-content: space-between;
+    padding:14px 23px;
+}
+.miradi i{
+    color:#60a5fa;
+}
+.na-zaidi i{
+    color:#d4a017;
+}
+.portfolio-website,.Landing-pages,.Business-Website,.dashboards,.fullstack-webs,.ecommerce-webs,.na-zaidi{
+    background:#0f172a;
+    border:1px solid #334155;
+    color:#cbd5e1;
+    border-radius:14px;
+    padding:14px 23px;
+}
+/*levels*/
+#levels-section{
+    display:flex;
+    justify-content: space-between;
+    gap:14px;
+    padding:14px 23px;
+}
+.chagualevelyako{
+    display:flex;
+    gap:14px;
+}
+.level-comment{
+    width:14%;
+}
+.level-comment h3{
+    color:#d4a017;
+}
+#comment{
+    background:#0f172a;
+    border:1px solid #2a3648;
+    border-radius:14px;
+    padding:5px;
+}
+.foundation-level{
+    background:#f8fafc;
+    padding:14px 23px;
+    border-radius:14px;
+}
+.foundation-level p{
+    color:#111827;
+}
+.foundation-level h3{
+    color:#111827;
+}
+.foundation-level h4{
+    color:#166534;
+}
+.foundation-level a{
+    background:#15803d;
+    color:white;
+    border-radius:5px;
+    text-decoration: none;
+    padding:14px 32px;
+}
+.professional-level{
+    background:#ffffff;
+    padding:14px 23px;
+    border-radius:14px;
+}
+.professional-level h4{
+    color:#2563eb;
+}
+.professional-level p, .professional-level h3{
+    color:#111827;
+}
+.professional-level a{
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    text-decoration: none;
+    padding:14px 32px;
+}
+.elite-level{
+    background:#ffffff;
+    padding:14px 23px;
+    border-radius:14px;
+}
+.elite-level h4{
+    color:#7c3aed;
+}
+.elite-level p, .elite-level h3{
+    color:#111827;
+}
+.elite-level a{
+    background:#7c3aed;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:14px 32px;
+
+}
+.njiazamalipo{
+    width:14%;
+}
+/*kwanini ujifunze nasi & maoni ya wanafunzi*/
+.reputation-section{
+    display:flex;
+    padding:14px 23px;
+}
+.kwaniniujifunzenasi{
+    display:flex;
+    gap:5px;
+    position:relative;
+    top:61px;
+}
+.kwaniniujifunzenasi i{
+    color:#d4a017;
+}
+.kwanini-sisi h2{
+    color:#d4a017;
+}
+.maoniyawanafunzi{
+    display:flex;
+    gap:14px;
+    width:100%;
+}
+.maoni-section{
+    position:relative;
+    left:67px;
+}
+.mwanafunzi1, .mwanafunzi2{
+    display:flex;
+    width:41%;
+    background:#0f172a;
+    border:1px solid #243244;
+    padding:5px 14px;
+    border-radius:14px;
+}
+.mwanafunzi1 i, .mwanafunzi2 i{
+    color:#7c3aed;
+    font-size: 32px;
+}
+/*usisubiri muujiza jenga ujuzi*/
+.usisubirimuujiza{
+    text-align: center;
+    padding:14px 23px;
+}
+/*footer section*/
+.contactandnewsletter{
+    display:flex;
+    gap:14px;
+    padding:14px 23px;
+    background:#07111f;
+    overflow-x: hidden;
+}
+.newsletter-input input{
+    background:white;
+    padding:14px 23px;
+    border-radius:5px;
+}
+.newsletter-input a{
+    text-decoration:none;
+    background:#d4a017;
+    border-radius:5px;
+    padding:14px 23px;
+}
+footer{
+    padding:0px 23px;
+}

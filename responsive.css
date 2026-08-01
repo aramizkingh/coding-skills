@@ -1,0 +1,117 @@
+/*reponsive design of a coding skills landing page*/
+@media(max-width:414px){
+    /*navbar section*/
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    /*header section*/
+    .dhamirayetu{
+        height:260px;
+    }
+    .dhamirayetu h3, .dhamirayetu p{
+        position:relative;
+        bottom:23px;
+    }
+    .wanafunzi{
+        position:relative;
+        bottom:50px;
+        height:210px;
+    }
+    .values-delivered{
+        gap:7px;
+        position:relative;
+        top:14px;
+    }
+    .values-delivered i{
+        position:relative;
+        left:14px;
+    }
+    /*tatizo halisi na kwanini coding*/
+    .tatizohalisi-kwaninicoding{
+        display:grid;
+    }
+    .tatizo-halisi{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        width:100%;
+        gap:5px;
+    }
+    /*cashflow quadrant*/
+    .quadrants{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /*njia za kuwa developer wa kimataifa*/
+    .hatua{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /*miradi utakayojenga*/
+    .miradi{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:14px;
+    }
+    /*levels*/
+    #levels-section{
+        display:grid;
+    }
+    .level-comment{
+        width:100%;
+    }
+    .chagualevelyako{
+        display:grid;
+    }
+    .njiazamalipo{
+        width:100%;
+    }
+    /*kwanini ujifunza nasi & maoni ya wanafunzi*/
+    .reputation-section{
+        display:grid;
+    }
+    .kwaniniujifunzenasi{
+        display:grid;
+    }
+    .maoni-section{
+        position:relative;
+        top:50px;
+    }
+    .maoniyawanafunzi{
+        display:grid;
+    }
+    .maoni-section h3{
+        position:relative;
+        right:55px;
+    }
+    .mwanafunzi1, .mwanafunzi2{
+        width:100%;
+        position:relative;
+        right:58px;
+    }
+    /*usisubiri muujiza jenga ujuzi*/
+    .usisubirimuujiza{
+        position:relative;
+        top:14px;
+    }
+    /*footer section*/
+    .contactandnewsletter{
+        display:grid;
+    }
+    .newsletter-input{
+        display:grid;
+        gap:5px;
+    }
+}
+@media(max-width:365px){
+    nav{
+        padding:5px 14px;
+        font-size:14px;
+    }
+    .values-delivered{
+        font-size: 14px;
+    }
+    .tatizohalisi-kwaninicoding{
+        font-size: 14px;
+    }
+}
