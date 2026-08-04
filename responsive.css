@@ -6,6 +6,7 @@
     }
     nav{
         flex-wrap: wrap;
+        font-size: 14px;
     }
     /*header section*/
     .dhamirayetu{
@@ -17,13 +18,14 @@
     }
     .wanafunzi{
         position:relative;
-        bottom:50px;
+        bottom:140px;
         height:210px;
     }
     .values-delivered{
-        gap:7px;
+        display:grid;
+        grid-template-columns:repeat(4,1fr);
+        gap:12px;
         position:relative;
-        top:14px;
     }
     .values-delivered i{
         position:relative;
@@ -36,7 +38,7 @@
     .tatizo-halisi{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-        width:100%;
+        width:97%;
         gap:5px;
     }
     /*cashflow quadrant*/
@@ -52,6 +54,11 @@
         display:grid;
         grid-template-columns: repeat(2,1fr);
         gap:14px;
+    }
+    /*kwanini coding*/
+    .sababu{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
     }
     /*levels*/
     #levels-section{
